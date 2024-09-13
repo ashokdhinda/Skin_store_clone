@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: static;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-bar{
+    background-color: #ffeeee;
+    align-items: center;
+}
+.top-bar>ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 92% ;
+}
+.top-bar>ul li:hover{
+    background-color: #ccb4b4 ;
+}
+
+.top-bar>ul>li{
+  padding: 5px;
+  display: flex;
+  margin: 0 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.top-bar li span{
+    margin-left: 12px;
+    
+}
+.top-bar a{
+    text-decoration: none;
+    color: black;
+}
+.contr-img{
+    width: 100%;
+     margin-top: 3px;
+}
+
+.top-bar>ul>li div{
+    width: 20px;
+}
