@@ -26,8 +26,10 @@ footer>div>div:nth-child(1) button{
     cursor: pointer;
 }
 footer>div>div:nth-child(1) button:hover{
-    background-color: rgb(0, 179, 255);
+    background-color: rgb(153, 174, 183);
     color:black ;
+   border-radius: 10px;
+
 }
 footer>div>div:nth-child(2)>div{
     display: grid;
