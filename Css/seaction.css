@@ -43,3 +43,117 @@
     background-color: white;
     color: #2E3337;
 }
+.section-two p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.section-two>div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin: 50px auto;
+}
+.section-two img{
+    width: 100%;
+    cursor: pointer;
+    transition: all .5s;
+}
+.section-two img:hover{
+    scale: 1.1;
+}
+.section-three{
+    margin: 6% 0;
+}
+.section-three>p:nth-child(1){
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.section-three>p:nth-child(2){
+    font-size: 14px;
+    line-height: 1.4;
+    color: #848c92;
+    font-weight: 300;
+    text-transform: none;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 15px;
+}
+.section-three>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+    width: 95%;
+    margin: auto;
+} 
+ .section-three>div>div:nth-child(1){
+    width: 100%;
+}
+.section-three>div>div:nth-child(1) img{
+    width: 100%;
+}
+.section-three>div>div:nth-child(2){
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:0 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    padding: 12px;
+}
+.list-items>div{
+    padding: 12px;
+}
+.list-items img{
+    width: 100%;
+}  
+.list-items button{
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 300;
+    line-height: 18px;
+    background-color: #333;
+    border-style: none;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    width: 100%;
+    border-radius: 10px;
+}
+.list-items button:hover{
+    background-color: rgba(0, 179, 255, 0.548);
+    color:black ;
+    border-radius: 20px;
+}
+.list-items p{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    word-break: break-word;
+}
+.list-items p:nth-child(3){
+    font-family: "Lato-Regular",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 600;
+}
