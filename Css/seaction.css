@@ -170,3 +170,67 @@
     grid-template-columns: repeat(5,1fr);
     padding:0 40px; 
 }
+
+.banner-seaction{
+    margin: 8% auto;
+}
+.banner-seaction>div{
+    width: 95%;
+    margin: auto;
+}
+.banner-seaction img{
+    width: 100%;
+}
+
+.section-five{
+    text-align: center;
+    
+}
+.section-five>p{
+    font-size: 28px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+}
+.section-five>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95%;
+    gap: 12px;
+    margin: auto;
+}
+.section-five>div>div>div{
+    width: 80%;
+    margin: auto
+}
+.section-five>div p{
+    font-size: 22px;
+    line-height: 1.4;
+    color: #2e3337;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.section-five>div p:nth-child(3){
+    font-size: 14px;
+    line-height: 1.4;
+    color: #81868a;
+    font-weight: 300;
+    margin-top: 8px;
+
+}
+.section-five img{
+    width: 100%;
+}
+.section-five button{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #bbadad;
+    border: 1px solid rgba(0,0,0,0.4);
+    color: #626669;
+    cursor: pointer;
+    border-radius: 10pc;
+}
+.section-five button:hover{
+    background-color: rgb(139, 169, 187);
+    border-radius: 8pc;
+}
