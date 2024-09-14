@@ -234,3 +234,65 @@
     background-color: rgb(139, 169, 187);
     border-radius: 8pc;
 }
+
+.section-six{
+    text-align: center;
+    margin: 6% 0;
+}
+.section-six>p{
+    font-size: 32px;
+    color: #2e3337;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.section-six>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    margin: auto;
+    gap: 18px;
+}
+.section-six>div>div{
+    padding: 12px;
+}
+.section-six>div>div p:nth-child(2){
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.section-six>div>div p:nth-child(3){
+    padding: 8px;
+    border: 1px solid red;
+    margin-bottom: 12px;
+    color: #5c6063;
+}
+.section-six>div>div span{
+    font-weight: 600;
+    color: rgb(173, 5, 5);
+}
+.section-six>div>div>div{
+    margin-bottom: 12px;
+}
+.section-six img{
+    width: 100%;
+}
+.section-six button{
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 300;
+    line-height: 18px;
+    background-color: #333;
+    border-style: none;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    margin-top: 12px;
+    border-radius: 10pc;
+}
+.section-six button:hover{
+    background-color: rgb(244, 247, 248);
+    color:rgb(143, 10, 10) ;
+    border-radius: 6pc;
+}
