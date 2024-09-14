@@ -1,0 +1,45 @@
+.section-one {
+    background-color: #F2F2F2;
+    
+}
+.section-one>div{
+    margin: auto;
+    padding: 12px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    width: 80%;
+}
+.section-one>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 12px;
+}
+.section-one>div>div>div{
+    width:35px;
+    margin-right: 12px;
+}
+.section-one img{
+    width: 100%;
+}
+
+.heading-tag{
+    text-align: center;
+    margin: 15px 0;
+}
+.heading-tag p{
+    margin: auto;
+    padding: 8px;
+    background-color:#2E3337;
+    color: white;
+    width: 80%;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 700;
+    cursor: pointer;
+}
+.heading-tag p:hover{
+    background-color: white;
+    color: #2E3337;
+}
