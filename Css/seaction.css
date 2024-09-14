@@ -157,3 +157,16 @@
     color: #2e3337;
     font-weight: 600;
 }
+
+.section-four>p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #2e3337;
+    font-weight: 400;
+}
+.section-four>div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:0 40px; 
+}
