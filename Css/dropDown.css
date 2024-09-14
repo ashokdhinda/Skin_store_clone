@@ -113,3 +113,35 @@
     margin-top: 6px;
 
 }
+.sub-menu-four{
+    display: none;
+}
+.menu-bar li:hover .sub-menu-four{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    left: 7.6%;
+    width: 80%;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 20px 20px;
+    margin-top: 6px;
+
+}
+.menu-bar li:hover .sub-menu-four img{
+    width: 100%;
+}
+.menu-bar li:hover .sub-menu-four div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.menu-bar li:hover .sub-menu-four p{
+    padding: 8px 0;
+    font-weight: 700;
+    transition: all .5s;
+}
+.menu-bar li:hover .sub-menu-four div:hover{
+    transform: translateY(-5px);
+}
