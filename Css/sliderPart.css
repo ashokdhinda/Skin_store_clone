@@ -1,0 +1,29 @@
+.slider-part{
+    width: 100%;
+    text-align: center;
+}
+.slider-part>div{ 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.slider-part>div>div{
+     width: 85%; 
+ } 
+ .slider-part>div>div img{ 
+     width: 100%; 
+ } 
+#prev-img,#next-img{
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
