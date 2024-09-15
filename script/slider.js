@@ -2,14 +2,11 @@ const main_img = document.getElementById("main-img");
 const prev_img = document.getElementById("prev-img");
 const next_img = document.getElementById("next-img");
 
-
-
 let arr = [
-    // "../images/original-Page-116[1]-070206.webp",
-    "../images/original-Page-007-035233.webp",
-    "https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63RDANWrto9CpgepRgTTK6cTzhuuLr8S_1i11YAkiCyMk_MiUmTros2ziRE5DxOHOSPE&usqp=CAU",
- 
+  "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/32/original-Agelessness1-HP-Hero-Desktop_1180x450-ss-144332.jpg",
+  "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/47/original-SkinC-HAIHP-Hero-Desktop-1180x450-SkinStore-211147.jpg",
+    "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/30/original-New_Page%5B1%5D-133530.png",
+
 ];
 let currentIndex = 0;
 function updateImage() {
