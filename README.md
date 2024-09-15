@@ -31,7 +31,7 @@ Welcome to the Skinstore project, a web application designed to provide a seamle
 
 ### 1. Home Page 🏡
 The home page serves as the entry point for users, providing an overview of featured skincare products, promotions, and other relevant information.
-![Alt Text](/Skin_store_clone/images/Readme/Screenshot%202024-09-15%20135436.png)
+![Alt Text](https://github.com/ashokdhinda/Skin_store_clone/images/Readme/Screenshot%202024-09-15%20135436.png?raw=true)
        
 ### 2. Login/Signup Page 🌐
 Users can create accounts or log in to existing ones. This feature ensures a personalized experience, enabling users to track their orders and preferences.
