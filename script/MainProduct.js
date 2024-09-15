@@ -1,36 +1,39 @@
-
-document.addEventListener("DOMContentLoaded", async function () {
+// document.addEventListener("DOMContentLoaded", async function () {
   let products;
+
+async function loadContent() {
   try {
-    let res = await fetch("/product.json");
+    let res = await fetch("/Skin_store_clone/json/product.json");
     let data = await res.json();
     products = data;
     console.log(products);
-    displayData(products); 
+    displayData(products);
   } catch (error) {
     console.log(error);
   }
+}
+loadContent();
 
-  let lowToHighBtn = document.getElementById("lowToHigh");
-  let highToLowBtn = document.getElementById("highToLow"); 
+let lowToHighBtn = document.getElementById("lowToHigh");
+let highToLowBtn = document.getElementById("highToLow");
 
-  lowToHighBtn.addEventListener("click", () => {
-    products.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
-    console.log(products);
-    displayData(products);
-  });
-
-  
-  highToLowBtn.addEventListener("click", () => {
-    products.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
-    console.log(products);
-    displayData(products);
-  });
+lowToHighBtn.addEventListener("click", () => {
+  products.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+  console.log(products);
+  displayData(products);
 });
+
+highToLowBtn.addEventListener("click", () => { 
+  products.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
+  console.log(products);
+  displayData(products);
+});
+
+// });
 
 function displayData(products) {
   const productionSection = document.getElementById("product-section");
-    productionSection.innerHTML = "";
+  productionSection.innerHTML = "";
 
   products.forEach(function (ele) {
     let cardDiv = document.createElement("div");

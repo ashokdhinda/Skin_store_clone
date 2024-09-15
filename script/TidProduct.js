@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", async function () {
   let products;
   try {
-    let res = await fetch("product_three.json");
+    let res = await fetch("/Skin_store_clone/json/product_three.json");
     let data = await res.json();
-    products = data;
-    console.log(products);
-    displayData(products);
+    console.log(data);
+    displayData(data);
   } catch (error) {
     console.log(error);
   }
