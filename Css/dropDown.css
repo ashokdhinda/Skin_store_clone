@@ -145,3 +145,75 @@
 .menu-bar li:hover .sub-menu-four div:hover{
     transform: translateY(-5px);
 }
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .menu-bar>ul {
+    width: 90vw;
+    margin-left: 3vw;
+  }
+
+  .menu-bar li:hover .sub-menu-one,
+  .menu-bar li:hover .sub-menu-two,
+  .menu-bar li:hover .sub-menu-three,
+  .menu-bar li:hover .sub-menu-four {
+    width: 90%;
+    left: 5%;
+    padding: 15px;
+  }
+
+  .menu-bar li:hover .sub-menu-one div,
+  .menu-bar li:hover .sub-menu-two div,
+  .menu-bar li:hover .sub-menu-three div,
+  .menu-bar li:hover .sub-menu-four div {
+    width: 90%;
+  }
+
+  .menu-bar li:hover .sub-menu-one ul div,
+  .menu-bar li:hover .sub-menu-two ul div,
+  .menu-bar li:hover .sub-menu-three ul div,
+  .menu-bar li:hover .sub-menu-four ul div {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .menu-bar>ul {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu-bar>ul>li {
+    width: 100%;
+  }
+
+  .menu-bar li:hover .sub-menu-one,
+  .menu-bar li:hover .sub-menu-two,
+  .menu-bar li:hover .sub-menu-three,
+  .menu-bar li:hover .sub-menu-four {
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  .menu-bar li:hover .sub-menu-one ul div,
+  .menu-bar li:hover .sub-menu-two ul div,
+  .menu-bar li:hover .sub-menu-three ul div,
+  .menu-bar li:hover .sub-menu-four ul div {
+    flex-direction: column;
+  }
+
+  .menu-bar li:hover .sub-menu-four img {
+    width: 100%;
+  }
+
+  .menu-bar li:hover .sub-menu-one div,
+  .menu-bar li:hover .sub-menu-two div,
+  .menu-bar li:hover .sub-menu-three div,
+  .menu-bar li:hover .sub-menu-four div {
+    width: 100%;
+  }
+}
+

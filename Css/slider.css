@@ -27,3 +27,43 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* For Tablets (Portrait and Landscape) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .slider-part {
+    width: 90%; 
+  }
+
+  .slider-part>div>div {
+    width: 80%; 
+  }
+
+  #prev-img, #next-img {
+    padding: 10px; 
+    margin: 0 8px; 
+  }
+}
+
+/* For Mobile Phones */
+@media only screen and (max-width: 599px) {
+  .slider-part {
+    width: 100%; 
+  }
+
+  .slider-part>div>div {
+    width: 95%; 
+  }
+
+  .slider-part>div {
+    flex-direction: column; 
+  }
+
+  #prev-img, #next-img {
+    padding: 8px; 
+    margin: 5px; 
+  }
+  
+  img {
+    width: 100%; 
+  }
+}
