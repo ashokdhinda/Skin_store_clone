@@ -13,6 +13,6 @@ form.addEventListener("submit",
         }
         localStorage.setItem("userDetails", JSON.stringify(userDetails));
         console.log(userDetails);
-        window.location.href = "/Skin_store_clone/html/login.html"
+        window.location.href = "../html/login.html"
     }
 )

@@ -13,7 +13,7 @@ form.addEventListener("submit", function (event) {
         saveItem.email == useDetails.email && saveItem.password == useDetails.password
     ) {
         alert("Login Success")
-        window.location.href = "/Skin_store_clone/html/Main/myAccount.html"
+        window.location.href = "../html/Main/myAccount.html"
     } else {
         alert("worng crendetial")
     }

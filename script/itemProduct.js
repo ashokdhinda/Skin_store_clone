@@ -20,5 +20,5 @@ decrease.addEventListener("click", ()=>{
 })
 addButton.addEventListener("click", () => {
     alert("item is add successfully");
-    window.location.href = '/Skin_store_clone/html/addTocart.html'
+    window.location.href = '../html/addTocart.html'
 })

@@ -3,8 +3,8 @@ const prev_img = document.getElementById("prev-img");
 const next_img = document.getElementById("next-img")
 
 let arr = [
-  `/Skin_store_clone/images/original-Page-116[1]-070206.webp`,
-  `/Skin_store_clone/images/original-Page-007-035233.webp`,
+    '../images/original-Page-116[1]-070206.webp',
+  '../images/original-Page-007-035233.webp',
 ];
 let currentIndex = 0;
 function ubdateImage() {

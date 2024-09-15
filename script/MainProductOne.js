@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", async function () {
   let products;
   try {
-    let res = await fetch("/Skin_store_clone/json/product_one.json");
+    let res = await fetch("product_one.json");
     let data = await res.json();
     products = data;
     console.log(products);
@@ -61,7 +61,7 @@ function displayData(products) {
       cart.push(ele);
       localStorage.setItem("cart", JSON.stringify(cart));
 
-      window.location.href = `/Skin_store_clone/html/addTocart.html`;
+      window.location.href = `../html/addTocart.html`;
     });
     cardDiv.appendChild(quickBuyBtn);
 
