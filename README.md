@@ -41,3 +41,12 @@ Users can register new accounts or sign into existing ones. This functionality p
 Browse an extensive selection of skincare items on the product catalog page. It offers sorting and filtering options, making it simple for users to discover products that meet their specific preferences.
 ![Screenshot 2024-09-16 160328](https://github.com/user-attachments/assets/6fdbbc34-6b5b-4bf5-b697-7401300d13bf)
 ![Screenshot 2024-09-16 160521](https://github.com/user-attachments/assets/1a5cc7a6-5922-49a7-8929-4abd87e2a1b2)
+
+###4Individual Product Page 🌟
+Explore in-depth information about a particular product on the individual product page. View detailed descriptions, pricing, and customer feedback to make informed purchasing decisions.
+![Screenshot 2024-09-16 160445](https://github.com/user-attachments/assets/cbf279c7-f030-4015-828a-ce05e5051280)
+
+![Screenshot 2024-09-16 160211](https://github.com/user-attachments/assets/2f0fbc94-9617-4bf4-b9a2-e9ddbc6b614f)
+
+
+![Screenshot 2024-09-16 160225](https://github.com/user-attachments/assets/b2afa55e-ac83-41c8-bef4-0bea0ffd763a)
