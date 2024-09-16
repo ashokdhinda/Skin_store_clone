@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F2F2;
+}
+.contenier-headline{
+    background-color: white;
+    padding: 30px 0;
+}
+.contenier-headline-logo{
+width : 200px;
+margin-left: 20px;
+img{
+    width: 100%;
+}
+}
+.parent-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 70px;
+    width: 100%;
+}
+.child-one, .child-two{
+    background-color: white;
+    width: 27%;
+    padding: 2%;
+    height: fit-content;
+}
+.child-one>form>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parent-div>div>form>div>input{
+    height: 48px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+.button-two{
+   margin-top: 24px;
+   border: none;
+  border-radius: 5%;
+}
+.button-two>input{
+    background: rgb(51, 47, 47);
+    color: white;
+    width: 100%; 
+    padding: 10px 0px;
+    
+   
+}
+
+.button-three{
+    margin-top: 24px;
+    border: none;
+ }
+ .button-three>a{
+    text-decoration: none;
+     background: black;
+     color: white;
+     padding: 10px 41.90%;
+ }
+
+h1{
+    margin-top: 0px;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .contenier-headline {
+    padding: 20px 0;
+  }
+
+  .contenier-headline-logo {
+    width: 150px;
+    margin-left: 15px;
+  }
+
+  .parent-div {
+    flex-direction: column;
+    gap: 5%;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .child-one, .child-two {
+    width: 70%;
+    padding: 3%;
+  }
+
+  .button-two>input {
+    padding: 10px;
+  }
+
+  .button-three>a {
+    padding: 10px 35%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .contenier-headline {
+    padding: 15px 0;
+  }
+
+  .contenier-headline-logo {
+    width: 120px;
+    margin-left: 10px;
+  }
+
+  .parent-div {
+    flex-direction: column;
+    gap: 10%;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .child-one, .child-two {
+    width: 90%;
+    padding: 5%;
+  }
+
+  .button-two>input {
+    padding: 10px;
+  }
+
+  .button-three>a {
+    padding: 10px 25%;
+  }
+}
