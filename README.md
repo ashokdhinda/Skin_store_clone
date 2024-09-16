@@ -29,3 +29,5 @@ Remove product
 
 ### 1. Home Page 🏡
 The home page serves as the entry point for users, providing an overview of featured skincare products, promotions, and other relevant information.
+![Screenshot 2024-09-16 160146](https://github.com/user-attachments/assets/d73d3f59-dbfb-4f86-a6b9-bdd5b36fb34e)
+
