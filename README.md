@@ -7,24 +7,40 @@ Welcome to the Skinstore project, a web application designed to provide a seamle
 
 #Responsibilities 🙌🏽 
 ## 1. Pages 📃 -
-Home page
+
+Home 
+
 Login Page
+
 Signup Page
+
 Profile Page
+
 Multi-Product Page
+
 Single Product Page
+
 Cart page
-Attractive CSS with all system 
+
+Attractive CSS with all system
+
 Header and Footer
 
  ## 2 Functionalities 🤖 -
  Login 
+ 
  Signup
+ 
  Hover Effect
+ 
  Dropdown Menu 
+ 
 Sorting in Product
+
 add prodcut in cart
+
 Remove product
+
 ## Features 🚀
 
 ### 1. Home Page 🏡
